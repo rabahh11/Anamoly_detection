@@ -39,23 +39,6 @@ Place the raw CSV in:
 - **Visualization**: scatter plot of the first two components colored by cluster label  
 - **Insight**: clusters partially separate fraudulent from legitimate transactions, suggesting structure beyond reconstruction error.
 
-## How to Run
 
-1. Clone this repo  
-2. Create a conda/virtualenv environment and install:
-   ```bash
-   pip install -r requirements.txt
-notebooks/Code_Final.ipynb
-├── data/
-│   └── creditcard.csv
-├── notebooks/
-│   └── Code_Final.ipynb
-├── requirements.txt
-└── README.md
 
-**Tips for uploading:**
-1. Put your CSV in a top‑level `data/` folder and the notebook under `notebooks/`.  
-2. Add a `requirements.txt` listing your `pip freeze` or at least the key libraries.  
-3. Push everything to GitHub and verify that the README renders correctly.  
 
-Feel free to tweak any section or add badges (build, license) as desired.
